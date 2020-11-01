@@ -31,7 +31,7 @@ client.on("ready", () => {
   let statuses = [
     `Servers: ${client.guilds.size} | Users: ${client.users.size}`,
     `😍😍😍😍😍`,
-    `  🔸EMPRATOR IS ONE🔸`
+    `  🔸𝗜𝗧𝗦 𝗛𝗔𝗠𝗢🔸`
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
@@ -43,26 +43,26 @@ client.on("ready", () => {
 });
 /// REKLAM ///
 client.on('ready' , () => {
-var join = client.channels.get("id voice")/// ئاید ڤۆیس
-if (join) join.join()
+var join = client.channels.get("751407453186293770")/// ئاید ڤۆیس
+if (join) join.join(751407438598635521)
  
  
 })
  
  
  
-client.on("message" , message => {
- 
+client.on("message" , message =>  {
 if(message.channel.type === 'dm') {
  
 if (message.content.startsWith("https://discord.gg/")) {
  
   message.author.send(`>
-https://discord.gg/keWq5Mp`)/// لینکە سیرڤەرە خۆت
+https://discord.gg/Dtej6PCd8N`)/// لینکە سیرڤەرە خۆت
  
-  client.channels.get("text id").send(
+  client.channels.get("751407438598635521").send(
 `> Nerdra la layan <@${message.author.id}> 
 ${message.content}`)
 }
     }
-        })
+        })
+client.login("NzMxMTc3OTM3ODg5NjU2OTA0.XwiQhQ.OtHxbuiQy3xSIFzFYzZytFjQoOk")
